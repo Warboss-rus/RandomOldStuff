@@ -1,0 +1,17 @@
+;; //////////////////////////////////////////////////////////////////
+;; Released by Shingouki freely for the DOW Mod and gaming community
+;; //////////////////////////////////////////////////////////////////
+[global]
+
+UIName = Harlequins
+Description = From Eldar origin, the Harlequins are a unique social and military institution.
+DllName = WXPMod
+Playable = 1
+ModFolder = thedancemacabre
+ModVersion = 0.2.1
+TextureFE = Art/UI/Textures/thedancemacabre.tga
+
+DataFolder.1 = Data
+
+RequiredMod.1 = DXP2
+RequiredMod.2 = W40k

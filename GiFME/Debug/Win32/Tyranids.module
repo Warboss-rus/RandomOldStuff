@@ -1,0 +1,17 @@
+[global]
+
+UIName = Tyranid Mod
+Description = The Tyranid Mod for Soulstorm.
+DllName = WXPMod
+;; DllName = WXPMod_DCMod
+Playable = 1
+ModFolder = Tyranids
+ModVersion = 0.45
+TextureFE = Art/UI/Textures/Title_winter_assault.tga
+TextureIcon =
+
+DataFolder.1 = Data
+
+RequiredMod.1 = DXP2
+RequiredMod.2 = W40k
+

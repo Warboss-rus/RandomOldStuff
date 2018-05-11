@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.12.07 11:49:16.902.pas,C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\Богдановы\Documents\RAD Studio\Projects\Иконки DoW\Unit2.pas</Transaction>
+    <Transaction>2010.12.07 11:49:16.902.dfm,C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\Богдановы\Documents\RAD Studio\Projects\Иконки DoW\Unit2.dfm</Transaction>
+    <Transaction>2010.12.07 11:49:18.169.pas,C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Богдановы\Documents\RAD Studio\Projects\Иконки DoW\Unit1.pas</Transaction>
+    <Transaction>2010.12.07 11:49:18.169.dfm,C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Богдановы\Documents\RAD Studio\Projects\Иконки DoW\Unit1.dfm</Transaction>
+    <Transaction>2010.12.07 11:49:19.395.dproj,C:\Users\Богдановы\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Богдановы\Documents\RAD Studio\Projects\Иконки DoW\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

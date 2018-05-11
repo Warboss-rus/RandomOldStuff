@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.904,=C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.130,=C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.854,=C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.958,=C:\Users\Богдановы\Documents\RAD Studio\Projects\GiFME\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.888,C:\Users\Богдановы\Documents\RAD Studio\Projects\GiFME\Unit1.pas=C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.888,C:\Users\Богдановы\Documents\RAD Studio\Projects\GiFME\Unit1.dfm=C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.187,C:\Users\Богдановы\Documents\RAD Studio\Projects\GiFME\Project1.dproj=C:\Users\Богдановы\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.320,=C:\Users\Богдановы\Documents\RAD Studio\Projects\GiFME\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.142,=C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.750,=C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

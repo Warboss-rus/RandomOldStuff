@@ -1,0 +1,18 @@
+;; //////////////////////////////////////////////////////////////////
+;; Released by MaestroRobertus, Shingouki + Jok for the DOW Mod and gaming community
+;; //////////////////////////////////////////////////////////////////
+
+[global]
+
+UIName = $16010000
+Description = $16010003
+DllName = WXPMod
+Playable = 1
+ModFolder = steel_legions_ss
+ModVersion = 1.0
+
+DataFolder.1 = Data
+
+RequiredMod.1 = DXP2
+RequiredMod.2 = W40k
+

@@ -1,0 +1,246 @@
+object Form1: TForm1
+  Left = 373
+  Top = 206
+  Caption = #1043#1088#1072#1092#1080#1082#1080' '#1092#1091#1085#1082#1094#1080#1081
+  ClientHeight = 361
+  ClientWidth = 356
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Position = poDesigned
+  PixelsPerInch = 96
+  object Graph: TPaintBox
+    Left = 0
+    Top = 113
+    Width = 356
+    Height = 248
+    Align = alClient
+    DragCursor = crSizeAll
+    ParentShowHint = False
+    ShowHint = True
+    OnMouseDown = GraphMouseDown
+    OnMouseMove = GraphMouseMove
+    OnMouseUp = GraphMouseUp
+    OnPaint = BCalculateClick
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 356
+    Height = 113
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 4
+      Top = 33
+      Width = 6
+      Height = 13
+      Caption = 'a'
+    end
+    object Label2: TLabel
+      Left = 86
+      Top = 33
+      Width = 6
+      Height = 13
+      Caption = 'b'
+    end
+    object Label3: TLabel
+      Left = 4
+      Top = 56
+      Width = 5
+      Height = 13
+      Caption = 'c'
+    end
+    object Label4: TLabel
+      Left = 86
+      Top = 54
+      Width = 6
+      Height = 13
+      Caption = 'd'
+    end
+    object Label8: TLabel
+      Left = 203
+      Top = 6
+      Width = 49
+      Height = 13
+      Caption = #1052#1072#1089#1096#1090#1072#1073':'
+    end
+    object Label9: TLabel
+      Left = 203
+      Top = 45
+      Width = 51
+      Height = 13
+      Caption = #1058#1086#1095#1085#1086#1089#1090#1100':'
+    end
+    object Label11: TLabel
+      Left = 157
+      Top = 6
+      Width = 12
+      Height = 13
+      Caption = '1x'
+    end
+    object Label12: TLabel
+      Left = 325
+      Top = 6
+      Width = 24
+      Height = 13
+      Caption = '100x'
+    end
+    object Label13: TLabel
+      Left = 154
+      Top = 45
+      Width = 6
+      Height = 13
+      Caption = '1'
+    end
+    object Label14: TLabel
+      Left = 321
+      Top = 45
+      Width = 28
+      Height = 13
+      Caption = '0,001'
+    end
+    object Label15: TLabel
+      Left = 260
+      Top = 6
+      Width = 6
+      Height = 13
+      Caption = 'x'
+    end
+    object LM: TLabel
+      Left = 268
+      Top = 6
+      Width = 6
+      Height = 13
+      Caption = '1'
+    end
+    object LZ: TLabel
+      Left = 260
+      Top = 45
+      Width = 28
+      Height = 13
+      Caption = '0,100'
+    end
+    object Label10: TLabel
+      Left = 157
+      Top = 88
+      Width = 53
+      Height = 13
+      Caption = #1064#1072#1075' '#1089#1077#1090#1082#1080
+    end
+    object ComboBox1: TComboBox
+      Left = 6
+      Top = 6
+      Width = 145
+      Height = 21
+      TabOrder = 0
+      Text = #1042#1099#1073#1077#1088#1080#1090#1077' '#1090#1080#1087' '#1091#1088#1072#1074#1085#1077#1085#1080#1103
+      OnSelect = ComboBox1Select
+      Items.Strings = (
+        'ax^2+bx+c'
+        'bsin(ax+c)+d'
+        'bcos(ax+c)+d'
+        'barctg(ax+c)+d')
+    end
+    object EA: TEdit
+      Left = 15
+      Top = 29
+      Width = 50
+      Height = 21
+      Enabled = False
+      TabOrder = 1
+      Text = '0'
+      OnKeyPress = EAKeyPress
+    end
+    object EB: TEdit
+      Left = 98
+      Top = 29
+      Width = 50
+      Height = 21
+      Enabled = False
+      TabOrder = 2
+      Text = '0'
+      OnKeyPress = EAKeyPress
+    end
+    object EC: TEdit
+      Left = 14
+      Top = 54
+      Width = 50
+      Height = 21
+      Enabled = False
+      TabOrder = 3
+      Text = '0'
+      OnKeyPress = EAKeyPress
+    end
+    object ED: TEdit
+      Left = 98
+      Top = 54
+      Width = 50
+      Height = 21
+      Enabled = False
+      TabOrder = 4
+      Text = '0'
+      OnKeyPress = EAKeyPress
+    end
+    object BCalculate: TButton
+      Left = 6
+      Top = 80
+      Width = 145
+      Height = 25
+      Caption = #1055#1086#1089#1090#1088#1086#1080#1090#1100' '#1075#1088#1072#1092#1080#1082
+      TabOrder = 5
+      OnClick = BCalculateClick
+    end
+    object TBM: TTrackBar
+      Left = 154
+      Top = 22
+      Width = 195
+      Height = 17
+      Max = 100
+      Min = 1
+      Position = 1
+      TabOrder = 6
+      OnChange = TBMChange
+    end
+    object TBZ: TTrackBar
+      Left = 154
+      Top = 57
+      Width = 195
+      Height = 21
+      Max = 1000
+      Min = 1
+      Position = 10
+      TabOrder = 7
+      OnChange = TBZChange
+    end
+    object EGrid: TEdit
+      Left = 216
+      Top = 84
+      Width = 36
+      Height = 21
+      TabOrder = 8
+      Text = '0'
+      OnChange = EGridChange
+    end
+    object UpDown1: TUpDown
+      Left = 248
+      Top = 84
+      Width = 16
+      Height = 21
+      Associate = EGrid
+      Increment = 5
+      TabOrder = 9
+    end
+    object CBNum: TCheckBox
+      Left = 270
+      Top = 80
+      Width = 100
+      Height = 25
+      Caption = #1054#1090#1086#1073#1088#1072#1078#1072#1090#1100' '#1082#1086#1086#1088#1076#1080#1085#1072#1090#1099
+      TabOrder = 10
+    end
+  end
+end

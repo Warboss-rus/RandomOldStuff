@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2012.03.03 22:59:58.763,=C:\Users\Warboss-rus\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012.03.03 23:27:09.029,C:\Users\Warboss-rus\Documents\RAD Studio\Projects\DoW random\Random.dfm=C:\Users\Warboss-rus\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2012.03.03 23:27:09.029,C:\Users\Warboss-rus\Documents\RAD Studio\Projects\DoW random\Random.pas=C:\Users\Warboss-rus\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2012.03.03 23:27:25.077,C:\Users\Warboss-rus\Documents\RAD Studio\Projects\DoW random\RandomProj.dproj=C:\Users\Warboss-rus\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

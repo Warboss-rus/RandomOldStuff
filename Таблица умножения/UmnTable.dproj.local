@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2010.07.30 15:38:35.106.pas,C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Богдановы\Documents\RAD Studio\Projects\Таблица умножения\Unit1.pas</Transaction>
+    <Transaction>2010.07.30 15:38:35.123.dfm,C:\Users\Богдановы\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Богдановы\Documents\RAD Studio\Projects\Таблица умножения\Unit1.dfm</Transaction>
+    <Transaction>2010.07.30 15:38:51.360.dproj,C:\Users\Богдановы\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Богдановы\Documents\RAD Studio\Projects\Таблица умножения\UmnTable.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

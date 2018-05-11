@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 395
+  Top = 238
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = #1058#1072#1073#1083#1080#1094#1072' '#1091#1084#1085#1086#1078#1077#1085#1080#1103
+  ClientHeight = 283
+  ClientWidth = 282
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  OnActivate = FormActivate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Table: TStringGrid
+    Left = 0
+    Top = 0
+    Width = 289
+    Height = 289
+    ColCount = 9
+    DefaultColWidth = 30
+    DefaultRowHeight = 30
+    RowCount = 9
+    TabOrder = 0
+  end
+end

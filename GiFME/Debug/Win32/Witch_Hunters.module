@@ -1,0 +1,15 @@
+[global]
+
+UIName = Witch hunters mod
+Description = From Witch Hunters faction, the mod team presents the Adepta Sororitas
+DllName = WXPMod
+Playable = 1
+ModFolder = Witch_Hunters
+ModVersion = 9.0.0
+TextureFE = Art/UI/Textures/Title_winter_assault.tga
+TextureIcon =
+
+DataFolder.1 = Data
+
+RequiredMod.1 = DXP2
+RequiredMod.2 = W40k

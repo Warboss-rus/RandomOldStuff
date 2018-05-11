@@ -1,0 +1,17 @@
+[global]
+
+UIName = $16021000
+Description = $16021001
+DllName = WXPMod
+Playable = 1
+ModFolder = inquisition_daemonhunt
+ModVersion = 2.01
+TextureFE = Art/UI/Textures/Title_winter_assault.tga
+
+DataFolder.1 = Data
+
+ArchiveFile.1 = IDData 
+
+RequiredMod.1 = DXP2
+RequiredMod.2 = W40k
+RequiredMod.3 = Tyranids

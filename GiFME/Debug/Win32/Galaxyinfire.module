@@ -1,0 +1,17 @@
+[global]
+
+UIName = Galaxy in Fire MOD
+Description = Adds a lot of new units
+Playable = 1
+DllName = WXPMod
+ModFolder = Galaxy_in_Fire_MOD
+ModVersion = 1.0
+TextureFE = Art/UI/Textures/Title_winter_assault.tga
+TextureIcon = 
+
+DataFolder.1 = Data
+
+ArchiveFile.1 = GiF
+
+RequiredMod.1 = DXP2
+RequiredMod.2 = W40k
